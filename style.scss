@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+}
+
+body {
+  background-color: #252525;
+}
+
+.wrapper_home {
+  max-width: 1440px;
+  margin: 0 auto;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    // flex-direction: row;
+    background-color: #131313;
+    width: 1440px;
+    height: 83px;
+    border-bottom: 1px solid red;
+
+    .logo {
+      flex: 0 0 auto;
+      font-family: "FuturaDemiC";
+      font-size: 14px;
+      line-height: 16px;
+      text-transform: uppercase;
+      color: #E3B873;
+      p {
+        padding: 15px;
+      }
+    }
+
+    .navbar {
+      flex: 0 0 auto;
+      ul {
+        display: flex;
+        justify-content: space-between;
+        li {
+          padding: 15px;
+          list-style-type: none;
+          flex: 0 0 auto;
+          a {  
+            text-decoration: none;
+            p {
+              font-family: "FuturaBookC";
+              font-size: 14px;
+              line-height: 16px;
+              color: #FFFFFF;
+            }
+          }  
+        }  
+      }
+    }
+
+    .phone_number {
+      flex: 0 0 auto;
+      a {  
+        text-decoration: none;
+        list-style: none;
+        font-family: "FuturaDemiC";
+        font-size: 14px;
+        line-height: 16px;
+        text-decoration-line: underline;
+        color: #E3B873;
+      }
+    }
+
+    .request_call {
+      flex: 0 0 auto;
+      text-align: center;
+      width: 161px;
+      height: 37px;
+      background-color: #E3B873;
+      box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+      border-radius: 2px;
+      a {
+        text-decoration: none;
+        p {        
+          font-family: "FuturaDemiC";
+          font-size: 13px;
+          line-height: 15px;
+          color: #FFFFFF;
+        }  
+      }
+    }
+  }  
+
+  .main {
+    // display: flex;
+    width: 1440px;
+
+    .start_block {
+        background-color: #131313;
+        width: 1440px;
+        min-height: 755px;
+        border-bottom: 1px solid red;
+      }
+
+    .completed_projects {
+      background-color: #131313;
+      width: 1440px;
+      min-height: 1026px;
+      border-bottom: 1px solid red;
+    }
+
+    .data_submit {
+      background-color: #ffffff;
+      width: 1440px;
+      min-height: 790px;
+      border-bottom: 1px solid red;
+    }
+
+    .types_of_repair {
+      background-color: #ffffff;
+      width: 1440px;
+      min-height: 825px;
+      border-bottom: 1px solid red;
+    }
+
+    .request_block {
+      background-color: #ffffff;
+      width: 1440px;
+      min-height: 825px;
+      border-bottom: 1px solid red;
+    }
+
+    .styles_of_repair {
+      background-color: #131313;
+      width: 1440px;
+      min-height: 864px;
+      border-bottom: 1px solid red;
+    }
+
+    .design_project {
+      background-color: #ffffff;
+      width: 1440px;
+      min-height: 600px;
+      border-bottom: 1px solid red;
+    }
+
+    .about_work {
+      background-color: #131313;
+      width: 1440px;
+      min-height: 1215px;
+      border-bottom: 1px solid red;
+    }
+
+    .our_team {
+      background-color: #131313;
+      width: 1440px;
+      min-height: 400px;
+      border-bottom: 1px solid red;
+    }
+
+    .our_clients {
+      background-color: #ffffff;
+      width: 1440px;
+      min-height: 1552px;
+      border-bottom: 1px solid red;
+    }
+
+    .address {
+      background-color: #131313;
+      width: 1440px;
+      min-height: 954px;
+      border-bottom: 1px solid red;
+    }
+  }
+
+  .footer {
+  // display: flex;
+  background-color: #131313;
+  width: 1440px;
+  height: 83px;
+  border-bottom: 1px solid red;
+
+    .logo {
+    font-family: "FuturaDemiC";
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: #E3B873;
+    }
+  }
+}
