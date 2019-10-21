@@ -167,6 +167,9 @@ body {
   .wrapper_home .header .request_call {
     display: none;
   }
+  .wrapper_home .header .phone_number {
+    padding-right: 5px;
+  }
   .wrapper_home .header .phone_number a {
     color: #ffffff;
   }
@@ -182,10 +185,10 @@ body {
     line-height: 14px;
   }
   .wrapper_home .header .logo h1 {
-    padding: 23px 20px 7px 55px;
+    padding: 23px 20px 7px 35px;
   }
   .wrapper_home .header .phone_number {
-    padding: 20px 20px 7px 0px;
+    padding: 20px 5px 7px 0px;
   }
   .wrapper_home .header .phone_number a {
     font-size: 12px;
@@ -785,6 +788,8 @@ body {
   }
   .wrapper_home .main .completed_projects_wrapper .projects .projects_info .info_text .project_first .back_little {
     position: absolute;
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
     margin-top: 110px;
     margin-left: 23px;
     width: 36px;
@@ -1057,7 +1062,7 @@ body {
 }
 
 .wrapper_home .main .data_submit .submit_box ul .name_area {
-  margin-right: 58px;
+  margin-right: 55px;
 }
 
 .wrapper_home .main .data_submit .submit_box ul .phone_area {
@@ -1117,6 +1122,8 @@ body {
         -ms-flex-pack: center;
             justify-content: center;
     max-width: 364px;
+    min-height: 380px;
+    margin-top: -80px;
   }
   .wrapper_home .main .data_submit .submit_box ul {
     display: -webkit-box;
@@ -1132,6 +1139,7 @@ body {
     margin-bottom: 15px;
     padding-left: 0px;
     max-width: 364px;
+    min-height: 380px;
   }
   .wrapper_home .main .data_submit .submit_box ul .name_area {
     margin-right: 0px;
@@ -2048,7 +2056,7 @@ body {
   .wrapper_home .main .design_project .design_example .design_first {
     width: 340px;
     height: 500px;
-    margin: 15px;
+    margin: 15px 5px 15px 5px;
   }
   .wrapper_home .main .design_project .design_example .design_first .design_project_text {
     height: 177px;
@@ -2059,7 +2067,7 @@ body {
   .wrapper_home .main .design_project .design_example .design_second {
     width: 340px;
     height: 570px;
-    margin: 15px;
+    margin: 15px 5px 15px 5px;
   }
   .wrapper_home .main .design_project .design_example .design_second .design_project_text {
     height: 241px;
@@ -2070,7 +2078,7 @@ body {
   .wrapper_home .main .design_project .design_example .design_third {
     width: 340px;
     height: 610px;
-    margin: 15px;
+    margin: 15px 5px 15px 5px;
   }
   .wrapper_home .main .design_project .design_example .design_third .design_project_text {
     height: 364px;
@@ -3112,7 +3120,7 @@ body {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 auto;
           flex: 0 0 auto;
-  padding: 35px 20px;
+  padding: 35px 20px 35px 20px;
 }
 
 .wrapper_home .footer .phone_number a {

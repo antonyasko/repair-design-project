@@ -127,6 +127,7 @@ body {
         display: none;
       }
       .phone_number {
+        padding-right: 5px;
         a {  
           color: #ffffff;
         }
@@ -142,11 +143,11 @@ body {
         font-size: 12px;
         line-height: 14px;
         h1 {
-          padding: 23px 20px 7px 55px;
+          padding: 23px 20px 7px 35px;
         }
       }
       .phone_number {
-        padding: 20px 20px 7px 0px;
+        padding: 20px 5px 7px 0px;
         a {  
           font-size: 12px;
           line-height: 14px;
@@ -566,6 +567,7 @@ body {
                 }
                 .back_little {
                   position: absolute;
+                  transform: rotate(180deg);
                   margin-top: 110px;
                   margin-left: 23px;
                   width: 36px;
@@ -776,7 +778,7 @@ body {
             }
           }
           .name_area {
-            margin-right: 58px;
+            margin-right: 55px;
           }
           .phone_area {
             margin-right: 58px;
@@ -830,6 +832,8 @@ body {
           flex-direction: column;
           justify-content: center;
           max-width: 364px;
+          min-height: 380px;
+          margin-top: -80px;
           ul {
             display: flex;
             justify-content: center;
@@ -837,6 +841,7 @@ body {
             margin-bottom: 15px;
             padding-left: 0px;
             max-width: 364px;
+            min-height: 380px;
             .name_area {
               margin-right: 0px;
             }
@@ -846,7 +851,6 @@ body {
             .submit_button {
               position: relative;
               margin-top: 100px;
-
               input {
                 width: 340px;
                 height: 51px;
@@ -1559,7 +1563,7 @@ body {
           .design_first {
             width: 340px;
             height: 500px;
-            margin: 15px;
+            margin: 15px 5px 15px 5px;
             .design_project_text {
               height: 177px;
             }
@@ -1570,7 +1574,7 @@ body {
           .design_second {
             width: 340px;
             height: 570px;
-            margin: 15px;
+            margin: 15px 5px 15px 5px;
             .design_project_text {
               height: 241px;
             }
@@ -1581,7 +1585,7 @@ body {
           .design_third {
             width: 340px;
             height: 610px;
-            margin: 15px;
+            margin: 15px 5px 15px 5px;
             .design_project_text {
               height: 364px;
             }
@@ -2380,7 +2384,8 @@ body {
     
     .phone_number {
       flex: 0 0 auto;
-      padding: 35px 20px;
+      padding: 35px 20px 35px 20px;
+
       a {  
         text-decoration: none;
         list-style: none;
@@ -2421,6 +2426,7 @@ body {
         display: none;
       }
       .phone_number {
+
         a {  
           color: #ffffff;
         }
